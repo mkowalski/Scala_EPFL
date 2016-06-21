@@ -50,7 +50,8 @@ assignmentsMap := {
       partId = "7hlkb",
       maxScore = 10d,
       styleScoreRatio = 0.2,
-      styleSheet = styleSheetPath),
+      styleSheet = styleSheetPath,
+      options = Map("grader-timeout" -> "1800")),
     "patmat" -> Assignment(
       packageName = "patmat",
       key = "BwkTtD9_EeWFZSIACtiVgg",
@@ -66,6 +67,7 @@ assignmentsMap := {
       partId = "v2XIe",
       maxScore = 10d,
       styleScoreRatio = 0.2,
-      styleSheet = styleSheetPath)
+      styleSheet = styleSheetPath,
+      options = Map("grader-timeout" -> "1800"))
   )
 }
