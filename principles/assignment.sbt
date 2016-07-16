@@ -1,2 +1,2 @@
 course := "progfun1"
-assignment := "objsets"
+assignment := "patmat"
